@@ -7,9 +7,10 @@
 .buildlog/
 .history
 tourism.iml
-pubspec.yamlanalysis_options.yaml
-
-
+pubspec.yaml
+analysis_options.yaml
+.metadata
+.idea
 
 # Flutter repo-specific
 /bin/cache/
