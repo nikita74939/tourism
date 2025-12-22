@@ -6,6 +6,8 @@
 *.swp
 .buildlog/
 .history
+tourism.iml
+pubspec.yamlanalysis_options.yaml
 
 
 
