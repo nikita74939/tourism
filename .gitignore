@@ -7,7 +7,6 @@
 .buildlog/
 .history
 tourism.iml
-pubspec.yaml
 analysis_options.yaml
 .metadata
 .idea
