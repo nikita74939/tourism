@@ -4,12 +4,11 @@ import 'routes/app_routes.dart';
 import 'routes/app_pages.dart';
 
 void main() {
-  runApp(const TourismApp());
+  runApp(const MyApp());
 }
 
-class TourismApp extends StatelessWidget {
-  const TourismApp({super.key});
-
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
