@@ -5,6 +5,6 @@ class MapTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text('Map'));
+    return const Center(child: Text('Map Coming Soon 🗺️'));
   }
 }

@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../routes/app_routes.dart';
+import 'package:tourism/routes/app_routes.dart';
 
 class AuthController extends GetxController {
   final isLoggedIn = false.obs;
@@ -14,13 +14,7 @@ class AuthController extends GetxController {
   Future<void> checkLogin() async {
     final prefs = await SharedPreferences.getInstance();
     final token = prefs.getString('token');
-
-    if (token != null) {
-      isLoggedIn.value = true;
-      Get.offAllNamed(Routes.home);
-    } else {
-      Get.offAllNamed(Routes.login);
-    }
+    isLoggedIn.value = token != null;
   }
 
   Future<void> loginDummy() async {

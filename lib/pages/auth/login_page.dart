@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:tourism/services/auth_service.dart';
+import 'package:tourism/controllers/auth_controller.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
