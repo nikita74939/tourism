@@ -300,26 +300,6 @@ GOOGLE_MAPS_API_KEY=your_api_key_here
 - Enable ProGuard/R8 for Android release builds
 - Use secure storage for tokens
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👥 Contributors
-
-- Your Name
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
-
-## 📞 Support
-
-For support, email support@yourapp.com or open an issue.
-
 ## 🔄 Version History
 
 - **1.0.0** - Initial release
