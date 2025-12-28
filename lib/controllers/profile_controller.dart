@@ -1,16 +1,17 @@
 import 'package:get/get.dart';
-import 'package:tourism/controllers/auth_controller.dart';
+import 'auth_controller.dart';
 
 class ProfileController extends GetxController {
-  late AuthController authC;
+  final authController = Get.find<AuthController>();
 
-  @override
-  void onInit() {
-    authC = Get.find<AuthController>();
-    super.onInit();
-  }
+  String get userName => authController.user.value?.name ?? 'User';
+  String get userEmail => authController.user.value?.email ?? '';
 
   void logout() {
-    authC.logout();
+    authController.logout();
+  }
+
+  void refreshProfile() {
+    authController.getProfile();
   }
 }
